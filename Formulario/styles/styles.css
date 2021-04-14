@@ -1,0 +1,84 @@
+/*estilos generales*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*colores de texto*/
+.text-blue {
+    color: dodgerblue;
+}
+/*contenedores de fondo*/
+.bg-gray{
+    background-image: url("../Img/chaandersoon-eJAZVvZnpFk-unsplash.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+.bg-white{
+    background-color: rgb(255, 255, 255);
+
+}
+/*contenedor del fomulario*/
+.form-container {
+    border: solid 0.1rem gray;
+    border-radius: 0.4rem;
+    width: 30%;
+    padding: 4rem;
+    height: 20rem;
+    /*<tipo de borde> <medida del borde> <color del borde>;*/
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*<posicion en y> <posicion en x> <nivel de distorcion> <color>;*/
+    box-shadow:-11px 11px 10px #0a010141
+
+
+}
+/*contenedor de los inputs */
+.input-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input-container {
+    border-radius: 0.4rem;
+    border: solid 0.1rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+/*contenedor de check-box*/
+.check-container{
+    margin-top: 0.5rem;
+    
+}
+.check-container input{
+    margin-right: 0.3rem;
+}
+/*estilos de boton*/
+.btn-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 0.7rem;
+    background-color:rgba(28, 132, 230, 0.849);
+    border:0px;
+    border-radius: 0.3rem;
+    color: white;
+
+
+
+}
+.btn:hover{
+    background-color: grey;
+}
+/*alineacion del formulario*/
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
